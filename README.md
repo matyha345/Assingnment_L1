@@ -3,9 +3,9 @@
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=matyha345&theme=darcula)
 
 
-<h1 align="center">
+<h1 >
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%№CB11AB&lines=ЗАДАЧИ)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%№CB11AB&lines=TASK)](https://git.io/typing-svg)
 
 </h1>
 1. Задача о палиндроме
