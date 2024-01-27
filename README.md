@@ -1,9 +1,13 @@
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=matyha345&theme=darcula)
 
-<h1 align="center" >Задачи</h1>
 
+<h1 align="center">
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%№CB11AB&lines=ЗАДАЧИ)](https://git.io/typing-svg)
+
+</h1>
 1. Задача о палиндроме
 
 2. Задача о странных числах
@@ -17,3 +21,4 @@
 6. Задача о сортировке объектов
 
 7. Задача о коллекции функций
+
