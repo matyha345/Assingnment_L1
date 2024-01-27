@@ -1,0 +1,135 @@
+@keyframes pulseAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+button{
+    background: rgb(54, 54, 202);
+    color: white;
+    border: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+p:not([class]){
+    font-weight: 700;
+}
+body{
+    padding: 0 35px;
+    margin-bottom: 100px;
+    max-width: 1000px;
+}
+
+.relative{
+    position: relative;
+}
+
+.pulse{
+    display: inline-block;
+    position: relative;
+}
+.pulse::before{
+    content: ">>>";
+    position: absolute;
+    top: 5px;
+    left: -30px;
+    color: red;
+    animation: pulseAnimation 1s infinite;
+}
+
+
+.border{
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid #333;
+}
+
+.margin__top{
+    margin-top: 10px;
+}
+.color__green{
+    color: green;
+    text-transform: uppercase;
+}
+.strange__numbers-number{
+    color: green;
+}
+
+/* libraries__mathx */
+.libraries__mathx-allert1 {
+    color: green;
+}
+.libraries__mathx-allert2 {
+    padding-left: 5px;
+    color: rgb(6, 117, 117);
+}
+.libraries__mathx-allert3 {
+    padding-left: 10px;
+    color:  red;
+}
+.libraries__mathx-allert4 {
+    padding-left: 15px;
+    color: green;
+}
+.libraries__mathx-allert5 {
+    padding-left: 20px;
+    color: rgb(6, 117, 117);
+}
+
+/*changeWordsEnd*/
+
+.changeWordsEnd__inner-text{
+    color: green;
+}
+
+.pulse__vertical-changeWordsEnd::before{
+    content: "\2193";
+    position: absolute;
+    top: -19px;
+    left: 67px;
+    /* transform: rotate(90deg); */
+    color: red;
+    animation: pulseAnimation 1s infinite;
+}
+.pulse__vertical-changeWordsEnd::after{
+    content: "\2193";
+    position: absolute;
+    top: -19px;
+    left: 115px;
+    /* transform: rotate(90deg); */
+    color: red;
+    animation: pulseAnimation 1s infinite;
+}
+
+.jsonCoordinateList__inner-json{
+    color: rgb(68, 85, 68);
+    font-size: 12px;
+}
+
+/*  */
+
+.sorting__objects-alert{
+    display: inline-block;
+    color: green;
+    font-size: 20px;
+    padding: 0 5px;
+    padding-bottom: 5px;
+   border-bottom: 1px solid red;
+}
+/*  */
+.unctionsArray__inner-create{
+    display: flex;
+    flex-direction: column;
+}

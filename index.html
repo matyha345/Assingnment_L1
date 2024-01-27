@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="palindrome border">
+        <div class="palindrome__inner">
+            <p>Задача о палиндроме</p>
+            <span class="palindrome__inner-text"></span>
+        </div>
+
+    </div>
+
+    <div class="strange__numbers border">
+        <div class="strange__numbers-inner relative">
+            <p>Задача о странных числах</p>
+            <button class="strange__numbers-btn pulse">Введите число</button>
+            <span class="strange__numbers-number">
+                6 является странным числом
+            </span>
+        </div>
+    </div>
+
+
+    <div class="libraries__mathX border">
+        <div class="libraries__mathx-inner">
+            <p>Реализовать аналог библиотеки Math</p>
+            <span class="libraries__mathx-allert1"></span>
+            <span class="libraries__mathx-allert2"></span>
+            <span class="libraries__mathx-allert3"></span>
+            <span class="libraries__mathx-allert4"></span>
+            <span class="libraries__mathx-allert5"></span>
+        </div>
+    </div>
+
+    <div class="changeWordsEnd border">
+        <p>Разработать функцию, изменяющую окончание слов в зависимости от падежа. </p>
+        <div class="changeWordsEnd__inner relative">
+            <select id="selectNumber">
+                <option value="112">112</option>
+                <option value="12">12</option>
+                <option value="1">1</option>
+                <option value="1024">1024</option>
+                <option value="1026">1026</option>
+                <option value="121">121</option>
+            </select>
+            <button class="pulse__vertical-changeWordsEnd" onclick="updateResults()">Обновить</button>
+            <span class="changeWordsEnd__inner-text">112 сообщений</span>
+        </div>
+    </div>
+
+    <div class="jsonCoordinateList border">
+        <div class="jsonCoordinateList__inner">
+            <p>Разработайте функцию преобразования JSON в связный список.</p>
+            <span class="jsonCoordinateList__inner-json"></span>
+        </div>
+    </div>
+
+    <div class="sorting__objects border">
+        <div class="sorting__objects-ineer">
+            <p>Задача о сортировке объектов</p>
+            <span class="sorting__objects-inner-text"></span>
+        </div>
+    </div>
+
+    <div class="functionsArray border">
+        <div class="functionsArray__inner relative">
+            <p>Задача о коллекции функций</p>
+            <button class="pulse" id="startButton">Начать выполнение функций</button>
+            <div class="unctionsArray__inner-create">
+                <span class="functionsArray__inner-name margin__top">Привет, "" Ваше имя добавлено на страницу.</span>
+                <span class="functionsArray__inner-age margin__top">"" Ваш возраст добавлен на страницу.</span>
+                <span class="functionsArray__inner-love--wb margin__top">"" Я рад что у нас совпадают мнения!</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./js/palindrome.js"></script>
+<script src="./js/strangeNumbers.js"></script>
+<script src="./js/librariesMathX.js"></script>
+<script src="./js/changeWordsEns.js"></script>
+<script src="./js/jsonCoordinateList.js"></script>
+<script src="./js/sortingObjects.js"></script>
+<script src="./js/functionsArray.js"></script>
+
+</html>
