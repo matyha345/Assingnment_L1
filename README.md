@@ -8,6 +8,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%№CB11AB&lines=TASK)](https://git.io/typing-svg)
 
 </h1>
+
 1. Задача о палиндроме
 
 2. Задача о странных числах
