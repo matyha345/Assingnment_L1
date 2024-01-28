@@ -26,6 +26,7 @@ button{
 p:not([class]){
     font-weight: 700;
 }
+
 body{
     padding: 0 35px;
     margin-bottom: 100px;
@@ -61,6 +62,13 @@ body{
 }
 .color__green{
     color: green;
+    text-transform: uppercase;
+}
+.color__wb{
+    color: #CB11AB;
+}
+.color__red{
+    color: red;
     text-transform: uppercase;
 }
 .strange__numbers-number{
